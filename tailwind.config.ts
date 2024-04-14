@@ -1,6 +1,7 @@
 import type { Config } from 'tailwindcss';
 
 const config: Config = {
+  darkMode: 'class', // Enable dark mode variant
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
@@ -16,6 +17,12 @@ const config: Config = {
           400: '#2589FE',
           500: '#0070F3',
           600: '#2F6FEB',
+        },
+        grey: {
+          500: '#625f5f',
+        },
+        white: {
+          500: '#ffffff',
         },
       },
     },
